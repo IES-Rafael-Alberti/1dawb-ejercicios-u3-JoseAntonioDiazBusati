@@ -6,7 +6,7 @@ def AsignaturasTotales():
     asignatura=[]
     asig=""
     cont=0
-    while asig!= "0":
+    while asig!= ".":
         asig=str(input("Añade tus asignaturas de una en una: "))
         asignatura.append(asig)
         cont+=1
